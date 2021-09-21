@@ -4,7 +4,13 @@
  * See: https://www.gatsbyjs.com/docs/gatsby-config/
  */
 
-module.exports = {
-  /* Your site config here */
-  plugins: [],
-}
+ module.exports = {
+   plugins: [
+     {
+       resolve: `gatsby-plugin-styled-components`,
+       options: {
+         // Add any options here
+       },
+     },
+   ],
+ }
